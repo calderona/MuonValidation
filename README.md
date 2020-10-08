@@ -3,7 +3,7 @@ Cfg files to run the muon validation code
 
 voms-proxy-init -voms cms -rfc --valid 168:0                                                                                         
 
-### runSummary.py and HARVESTrunAssociation.py
+### Run muon only validation code (not full sequence)
 
 For running only the muon validation (not the displaced muon validation, since for this you will need to run the full reco sequence)
 
