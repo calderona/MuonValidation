@@ -1,0 +1,8 @@
+executable = /afs/cern.ch/work/c/calderon/private/CMSSW_11_2_0_pre1/src/runDQM/submitjobs.sh
+universe = vanilla
+output = /afs/cern.ch/work/c/calderon/private/CMSSW_11_2_0_pre1/src/runDQM/jobs/jobs1_reco.out
+error = /afs/cern.ch/work/c/calderon/private/CMSSW_11_2_0_pre1/src/runDQM/jobs/jobs1_reco.err
+log = /afs/cern.ch/work/c/calderon/private/CMSSW_11_2_0_pre1/src/runDQM/jobs/jobs1_recco.log
+request_cpus = 1
++JobFlavour = "testmatch"
+queue
