@@ -15,6 +15,17 @@ cmsRun runSummary.py
 cmsRun HARVESTrunAssociation.py
 ``` 
 
+### RECO and full sequence of the muon only validation code
+
+```                                                                                                                                 
+cmsRun RecoFullGlobalPU_2026D49PU.py
+```   
+
+```
+cmsRun HARVESTrunAssociation.py
+```
+
+
 ### Sent jobs to condor
 
 voms-proxy-init -voms cms -rfc --valid 168:0
