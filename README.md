@@ -14,7 +14,7 @@ scramv1 b -j 10
 For running only the muon validation (not the displaced muon validation, since for this you will need to run the full reco sequence)
 
 ```
-cmsRun runSummary.py 
+cmsRun runAssociation.py 
 ```
 
 ``` 
