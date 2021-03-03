@@ -7,6 +7,8 @@ voms-proxy-init -voms cms -rfc --valid 168:0
 
 git-cms-addpkg Validation/RecoMuon 
 
+scramv1 b -j 10
+
 ### Run muon only validation code (not full sequence)
 
 For running only the muon validation (not the displaced muon validation, since for this you will need to run the full reco sequence)
